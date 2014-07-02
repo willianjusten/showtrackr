@@ -19,6 +19,10 @@
     "gulp-sass": "^0.7.2",
     "gulp": "^3.8.5",
     "bcryptjs": "^1.0.4",
-    "mongoose": "^3.8.12"
+    "mongoose": "^3.8.12",
+    "lodash": "^2.4.1",
+    "request": "^2.36.0",
+    "xml2js": "^0.4.4",
+    "async": "^0.9.0"
   }
 }
