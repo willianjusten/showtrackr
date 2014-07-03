@@ -10,7 +10,7 @@
 	<link href="stylesheets/style.css" rel="stylesheet">
 </head>
 <body>
-	<div class="navbar navbar-default navbar-static-top"
+	<div ng-controller="NavbarCtrl" class="navbar navbar-default navbar-static-top"
 	role="navigation" bs-navbar>
 	<div class="navbar-header">
 		<a class="navbar-brand" href="/">
@@ -40,12 +40,16 @@
 	<script src="vendor/angular-route.js"></script>
 	<script src="vendor/angular-cookies.js"></script>
 	<script src="vendor/moment.min.js"></script>
+	
 	<script src="app.js"></script>
+	<script src="filters/fromNow.js"></script>
+	<script src="directives/repeatPassword.js"></script>
 	<script src="controllers/main.js"></script>
+	<script src="controllers/navbar.js"></script>
 	<script src="controllers/add.js"></script>
 	<script src="controllers/detail.js"></script>
 	<script src="services/show.js"></script>
 	<script src="services/subscription.js"></script>
-	<script src="filters/fromNow.js"></script>
+	<script src="services/auth.js"></script>
 </body>
 </html>
