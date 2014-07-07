@@ -20,7 +20,7 @@ angular.module('MyApp')
 			$scope.headingTitle = genre;
 		};
 
-		$scope.gilterByAlphabet = function(char){
+		$scope.filterByAlphabet = function(char){
 			$scope.shows = Show.query({ alphabet: char });
 			$scope.headingTitle = char;
 		};
